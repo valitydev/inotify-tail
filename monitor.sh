@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # directory to monitor
-MONITOR_DIR=${1:-"/home/ivanovi/inotif_test/test_dir"}
+MONITOR_DIR=${1:-"/var/log/audit"}
 
 process_file() {
   local file="$1"
