@@ -2,7 +2,7 @@
 
 FROM --platform=${TARGETPLATFORM} alpine:latest as base
 
-RUN apk add --no-cache inotify-tools bash coreutils
+RUN apk add --no-cache bash coreutils
 
 COPY monitor.sh /usr/local/bin/monitor
 
